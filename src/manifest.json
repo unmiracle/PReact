@@ -1,6 +1,6 @@
 {
-  "name": "preact-test",
-  "short_name": "preact-test",
+  "name": "eCommerce App",
+  "short_name": "eCommerce App",
   "start_url": "/",
   "display": "standalone",
   "orientation": "portrait",

@@ -2,4 +2,40 @@
 	padding: 56px 20px;
 	min-height: 100%;
 	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.item {
+	max-width: 250px;
+	max-height: 220px;
+	display: flex;
+	flex-direction: column;
+	background-color: #f3f3f3;
+	padding: 10px;
+	cursor: pointer;
+}
+
+.title {
+	padding: 5px;
+	font-weight: bold;
+}
+
+.img {
+	max-width: 250px;
+	max-height: 150px;
+}
+
+.pricing {
+	padding: 5px;
+	display: flex;
+	justify-content: space-between;
+	color: green;
+	font-weight: bold;
+}
+
+.discount {
+	color: grey;
+	text-decoration: line-through;
+	font-weight: 400;
 }

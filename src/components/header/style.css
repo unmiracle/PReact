@@ -18,6 +18,14 @@
 	line-height: 56px;
 	font-weight: 400;
 	color: #FFF;
+	cursor: pointer;
+}
+
+.img {
+	height: 30px;
+	width: 30px;
+	position: relative;
+	top: 8px;
 }
 
 .header nav {
