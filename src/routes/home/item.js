@@ -3,7 +3,7 @@ import style from './style';
 import Currency from 'react-currency-formatter';
 import { route } from 'preact-router';
 
-const titleLimit = 10;
+const titleLimit = 15;
 const currency = 'USD';
 
 class Item extends Component {
