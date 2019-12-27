@@ -1,4 +1,4 @@
-const firebase = require('firebase/app');
+const firebase = require('firebase/app').default;
 require('firebase/auth');
 require('firebase/firestore');
 // import 'firebase/auth';
