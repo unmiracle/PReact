@@ -1,4 +1,3 @@
-global.XMLHttpRequest = require('xmlhttprequest').XMLHttpRequest;
 import './style';
 import Firebase from './firebase';
 import App from './components/app';
