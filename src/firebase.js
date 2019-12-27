@@ -1,4 +1,4 @@
-const app = require('firebase/app');
+const firebase = require('firebase/app');
 require('firebase/auth');
 require('firebase/firestore');
 // import 'firebase/auth';
@@ -15,9 +15,10 @@ const firebaseConfig = {
 	measurementId: 'G-ERT34E3CKG'
 };
 
+const app = firebase.initializeApp(firebaseConfig);
+
 class Firebase {
 	constructor() {
-		app.initializeApp(firebaseConfig);
 		this.auth = app.auth();
 		this.db = app.firestore();
 	}
